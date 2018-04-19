@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.android.slotmachine.MainActivity" >
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/LLayout" >
+
+    <ImageView
+        android:layout_width="96dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/Image_box1" />
+
+    <ImageView
+        android:id="@+id/Image_box2"
+        android:layout_width="96dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp" />
+
+    <ImageView
+        android:layout_width="96dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/Image_box3" />
+
+</LinearLayout>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/TextViewPoints"
+    android:text="@string/TextViewPoints"
+    android:textSize="50sp" />
+
+<TextView
+    android:id="@+id/seek_bar_display"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/Seek_bar_Slider"
+    android:layout_centerHorizontal="true"
+    android:text="@string/seek_Bar_display"
+    android:textSize="20sp" />
+
+<SeekBar
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/button_start_stop"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:id="@+id/Seek_bar_Slider"
+    android:max="2"
+    android:progress="1" />
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/button_rules"
+    android:layout_alignLeft="@+id/button_rules"
+    android:layout_alignStart="@+id/button_rules"
+    android:id="@+id/button_start_stop"
+    android:text="@string/Button_number1" />
+
+<Button
+    android:id="@+id/button_rules"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="38dp"
+    android:text="@string/Button_number2" />
+
+
+</RelativeLayout>
+

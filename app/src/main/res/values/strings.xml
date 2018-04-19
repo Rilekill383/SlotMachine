@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SlotMachine Game</string>
+    <string name="TextViewPoints">Points:XX</string>
+    <string name="seek_Bar_display">Speed: Medium</string>
+    <string name="Button_number1">Start</string>
+    <string name="Button_number2">Rules</string>
+    <string name="Rules">Points per spin: Diamonds=30, Gold=20, Oil=10, WealthyTriple=100, IRSTriple=-200 (Only the most valuable, singular resource counts!)</string>
+    <string name="activity2points">Points: </string>
+
+</resources>
